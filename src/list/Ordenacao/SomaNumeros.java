@@ -1,12 +1,12 @@
-package listanumeros;
+package list.Ordenacao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListNumeros {
+public class SomaNumeros {
     private List<Integer> numeroList;
 
-    public ListNumeros() {
+    public SomaNumeros() {
         this.numeroList = new ArrayList<>();
     }
 
@@ -60,7 +60,7 @@ public class ListNumeros {
     }
 
     public static void main(String[] args) {
-        ListNumeros num = new ListNumeros();
+        SomaNumeros num = new SomaNumeros();
 
         num.adicionarNumero(5);
         num.adicionarNumero(2);

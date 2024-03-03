@@ -1,4 +1,4 @@
-package pessoas;
+package list.Ordenacao;
 
 import java.util.Comparator;
 

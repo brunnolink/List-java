@@ -38,5 +38,5 @@ public class ConjuntoConvidados {
         System.out.println(convidadoSet);
     }
 
-    
+    //Testes em: Main
 }

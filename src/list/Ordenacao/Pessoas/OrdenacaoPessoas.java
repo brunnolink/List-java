@@ -8,7 +8,7 @@ public class OrdenacaoPessoas {
    private List<Pessoa> pessoaList;
 
    public OrdenacaoPessoas() {
-    this.pessoaList = new ArrayList();
+    this.pessoaList = new ArrayList<Pessoa>();
    }
 
    public void adicionarPessoa(String nome, int idade, double altura) {
